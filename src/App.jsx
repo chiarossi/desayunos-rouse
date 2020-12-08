@@ -7,6 +7,7 @@ function App() {
     <div>
       <h1>Bienvenidos a Desayunos Rouse</h1>
       <p>Encontra el regalo que estas buscando</p>
+      <NavBar />
     </div>
   );
 }
