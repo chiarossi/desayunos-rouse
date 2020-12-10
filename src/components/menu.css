@@ -46,9 +46,11 @@
   }
 
 .menuppal li:hover {
-    color: aqua;
     transition: all 2s;
 	transform: scale(1.1);
+}
+.menuppal a:hover {
+    color: aqua;
 }
 
 .svgcarrito {
