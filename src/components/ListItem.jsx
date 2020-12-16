@@ -1,6 +1,4 @@
 import "./menu.css"
-import "./bootstrap.css"
-import "./bootstrap.min.css"
 import ItemContainer from "./ItemContainer"
 function ListItem() {
   const mensaje = () => {

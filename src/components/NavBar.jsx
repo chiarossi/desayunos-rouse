@@ -1,7 +1,8 @@
 import './menu.css';
 import CartWidget from "./CartWidget";
-import "./bootstrap.css"
-import "./bootstrap.min.css"
+import WidgetCart from "./WidgetCart";
+
+import "./WidgetCart"
 
 function NavBar({titulo, action}) {
   return (
@@ -22,6 +23,7 @@ function NavBar({titulo, action}) {
           </div>
           <div className = "col-sm-2">
             <CartWidget/>
+            <WidgetCart/>
           </div>  
         </div>  
       </div>
