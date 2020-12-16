@@ -11,7 +11,6 @@ function App() {
   }
   return (
     <div>
-
       <NavBar action={cartelSeleccion} />
       <ListItem />  
     </div>

@@ -1,14 +1,18 @@
 import "./menu.css"
 import "./bootstrap.css"
 import "./bootstrap.min.css"
+import ItemContainer from "./ItemContainer"
 function ListItem() {
   const mensaje = () => {
     alert ("Lista de Desayunos");
   }
     return (
-      <div>
-        <button onClick={mensaje} className = "botonLista"><h3>Lista:</h3></button>
+      <div className = "container-fluid">
+        <div>
+          <ItemContainer />
+        </div>
       </div>
+
       
     );
   }
