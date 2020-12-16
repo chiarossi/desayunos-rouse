@@ -1,6 +1,5 @@
 import './menu.css';
 import CartWidget from "./CartWidget";
-import WidgetCart from "./WidgetCart";
 
 import "./WidgetCart"
 
@@ -22,8 +21,8 @@ function NavBar({titulo, action}) {
               </nav>
           </div>
           <div className = "col-sm-2">
-            <CartWidget/>
-            <WidgetCart/>
+            <CartWidget action={action} />
+          
           </div>  
         </div>  
       </div>

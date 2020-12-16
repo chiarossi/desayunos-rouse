@@ -6,12 +6,9 @@ import "./components/bootstrap.css"
 import "./components/bootstrap.min.css"
 
 function App() {
-  const cartelSeleccion = () => {
-    alert("Te redirigiremos a la pagina solicitada");
-  }
   return (
     <div>
-      <NavBar action={cartelSeleccion} />
+      <NavBar />
       <ListItem />  
     </div>
   );
