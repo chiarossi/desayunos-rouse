@@ -4,9 +4,9 @@ export default function Contador({count, addMore, lessMore}) {
    
     return (
         <>
-            <button onClick={() => addMore()}>+</button>
-            <p>{count}</p>
             <button onClick={() => lessMore()}>-</button>
+            <p>{count}</p>
+            <button onClick={() => addMore()}>+</button>
         </>
     );
 }

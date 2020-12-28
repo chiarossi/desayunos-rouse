@@ -1,7 +1,8 @@
-import "./menu.css";
-import { useState } from "react";
+import {useState} from 'react';
+import './ProductCard.css';
+import {Link} from 'react-router-dom';
 
-const ProdDesayuno = ({titulo, precio}) => {
+const ProductCard = ({titulo, precio}) => {
     const [qty, setQty] = useState(1);
 
     const handleClickResta = () => {
@@ -15,7 +16,7 @@ const ProdDesayuno = ({titulo, precio}) => {
     }
 
     return (
-        <article className="prodDesayuno">
+        <article className="productCard">
             <img src="https://placehold.it/300x300" alt="Mi producto de prueba"/>
             <div>
                 <h3>{titulo}</h3>
@@ -32,10 +33,10 @@ const ProdDesayuno = ({titulo, precio}) => {
                 <p>${precio}</p>
 
                 <button onClick={onAdd}>Agregar al carrito</button>
-               
+                <Link to="/detail">Ver más</Link>
             </div>
         </article>
     )
 }
 
-export default ProdDesayuno;
+export default ProductCard;
