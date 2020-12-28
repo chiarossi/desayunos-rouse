@@ -1,6 +1,5 @@
 import './menu.css';
 import CartWidget from "./CartWidget";
-
 import "./WidgetCart"
 
 function NavBar({titulo, action}) {
@@ -11,18 +10,17 @@ function NavBar({titulo, action}) {
       <div  className = "container-fluid">
         <div className = "row">
           <div className = "col-sm-10">
-          <nav class="menuppal">
+          <nav className="menuppal">
               <ul>Nuestros productos:
-                <li><a href = "#">Desayunos para Niños</a></li>
-                <li><a href = "#">Desayunos para Adultos</a></li>
-                <li><a href = "#">Desayunos Grandes</a></li>
-                <li><a href = "#">Desayunos Medianos</a></li>
+                <li><a href="https://github.com">Desayunos para Niños</a></li>
+                <li><a href="https://github.com">Desayunos para Adultos</a></li>
+                <li><a href="https://github.com">Desayunos Grandes</a></li>
+                <li><a href="https://github.com">Desayunos Medianos</a></li>
               </ul>
               </nav>
           </div>
           <div className = "col-sm-2">
             <CartWidget action={action} />
-          
           </div>  
         </div>  
       </div>
